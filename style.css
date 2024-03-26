@@ -25,7 +25,7 @@ button {
     color: white;
     
 }
-end button {
+.end button {
     border: 2px solid white;
 }
 .heads {
@@ -34,11 +34,13 @@ end button {
 }
 
 body {
-    /* background: linear-gradient(rgb(243, 210, 126),white);  */
-    height: 100vh;
-    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-
+body > * {
+    flex:auto;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -85,6 +87,7 @@ content {
 .container {
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
 }
 .cards {
     background-color:rgba(8, 54, 95, 0.5);
@@ -124,21 +127,25 @@ quote p {
     font-size: 24px;
     margin-right: 64px;
 }
-end {
+.end {
     height: fit-content;
     padding: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 64px;
+    
 }
 .bar {
+    flex: 0 1 auto;
     background-color: cornflowerblue;
-    width: fit-content;
+    width: 700px;
     padding: 32px 64px;
     border-radius: 32px;
     display: flex;
-    gap: 256px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
 
 }
 footer {
