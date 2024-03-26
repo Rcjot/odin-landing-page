@@ -8,7 +8,7 @@ just did the previous css exercises..
 Mar 26, 19:00
 Finished set up html content
 
-image sources are all here: https://bandori.party/gallery/
+image sources are all from here: https://bandori.party/gallery/
 
 ;
 
