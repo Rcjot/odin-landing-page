@@ -16,3 +16,5 @@ Mar 26 20:24
 Finished set up css and flex box
 
 ;
+
+live preview: https://rcjot.github.io/odin-landing-page/
