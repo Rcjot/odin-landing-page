@@ -11,3 +11,8 @@ Finished set up html content
 image sources are all here: https://bandori.party/gallery/
 
 ;
+
+Mar 26 20:24
+Finished set up css and flex box
+
+;
